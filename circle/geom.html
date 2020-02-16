@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Окружность</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+        <link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        
+        <script src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
+    </head>
+    <body class="vscode-light">
+        <font size = 3>
+<h1 id="%d0%9e%d0%ba%d1%80%d1%83%d0%b6%d0%bd%d0%be%d1%81%d1%82%d1%8c">Окружность</h1>
+<ul>
+<li><strong>def</strong>: <strong>Окружность</strong> - Геометрическое место точек, <strong>равноудалённых</strong> от фиксированной точки, называемой <strong>центром окружености</strong><br>
+<em>прим.</em> Точки, лежащие внутри окружности (включая её центр) не принадлежат окружности.</li>
+</ul>
+<h2 id="%d0%9e%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d1%8b%d0%b5-%d0%bf%d0%be%d0%bd%d1%8f%d1%82%d0%b8%d1%8f">Основные понятия</h2>
+<ul>
+<li><em><strong>def</strong>:</em> <strong>Радиус</strong> - отрезок, соединяющий точку, лежащую на окружности с центром данной окружности.</li>
+<li><em><strong>def</strong>:</em> <strong>Хорда</strong> - отрезок, соединяющий две точки, лежащии на окружности.</li>
+<li><em><strong>def:</strong></em> <strong>Диаметр</strong> - хорда, проходящая через центр окружности.</li>
+<li><em><strong>def</strong>:</em> <strong>Секущая</strong> - прямая, пересекающая окружность в двух точках.</li>
+<li><em><strong>def</strong>:</em> <strong>Касательная</strong> - прямая, имеющая одну общую точку с окружностью.</li>
+<li><em><strong>def</strong>:</em> <strong>Дуга</strong> - одно из двух подмножество окружности, на которые её делят 2 различные принадлежащие ей точки.</li>
+<li><em><strong>def</strong>:</em> <strong>Полуокружность</strong> - дуга, опирающаяся на диаметр (половина окружности <font size = 2><em>(кто бы мог подумать)</em> </font> )</li>
+</ul>
+<p><img src="file:////home/jer/nast/circle_things.png" alt="части окружности"></p>
+<ul>
+<li><strong><em>def</em>:</strong> <strong>Вписанный угол</strong> - угол, вершина которого принадлежит окружности.</li>
+<li><strong><em>def</em>:</strong> <strong>Центральный угол</strong> - угол, вершина которого лежит в центре окружности.</li>
+</ul>
+<p><img src="file:////home/jer/nast/angles.png" alt=""></p>
+<h2 id="%d0%92%d0%b0%d0%b6%d0%bd%d1%8b%d0%b5-%d1%81%d0%b2%d0%be%d0%b9%d1%81%d1%82%d0%b2%d0%b0-%d0%be%d0%ba%d1%80%d1%83%d0%b6%d0%bd%d0%be%d1%81%d1%82%d0%b8">Важные свойства окружности</h2>
+<ol>
+<li>Касательная перпендикулярна радиусу, <em>проведённому к точке касания</em>.</li>
+</ol>
+<p><img src="file:////home/jer/nast/kas.png" alt=""></p>
+<ol start="2">
+<li>
+<p><strong>Все</strong> вписанные углы, <em>опирающиеся на одну дугу</em> равны половине центрального угла, опирающегося на эту дугу.</p>
+</li>
+<li>
+<p><font size = 6> <strong><em>Формулы</em></strong> </font></p>
+<ul>
+<li>важные <em>(обязательно выучить)</em>
+<ol>
+<li>Диаметр: <font size = 6><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>D</mi><mo>=</mo><mn>2</mn><mi>R</mi></mrow><annotation encoding="application/x-tex">D = 2R</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">D</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span></span></span></span> </font></li>
+<li>Длина: <font size = 6><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>C</mi><mo>=</mo><mn>2</mn><mi>π</mi><mi>R</mi></mrow><annotation encoding="application/x-tex">C = 2\pi R</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord mathdefault" style="margin-right:0.03588em;">π</span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span></span></span></span> </font></li>
+<li>Площадь: <font size = 6><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>S</mi><mo>=</mo><mi>π</mi><msup><mi>R</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">S = \pi R^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.05764em;">S</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">π</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> </font></li>
+</ol>
+</li>
+<li>остальные <em>(полезны, но выводятся из важных)</em>
+<ol>
+<li>Радиус:</li>
+<li>Диаметр:</li>
+<li>Длина:</li>
+<li>Площадь:</li>
+</ol>
+</li>
+</ul>
+</li>
+</ol>
+</font>
+    </body>
+    </html>
